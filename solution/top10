@@ -4,4 +4,12 @@
 
 # here comes your solution
 # e.g.
-grep world $1
+#! /bin/bash 
+avr=$(cat log.txt| cut -f9 -d" " | grep 30 | sort | wc -l);
+# echo $avr;
+for i in `cat log.txt| cut -f9,12 -d" " $1 | grep 30 |cut -f2 -d" " $1 |cut -d "/" -f 1 | cut -d '"' -f 2 |sort -n |cut -d "/" -f 1 | cut -d '"' -f 2| uniq -c|sort -n | tac | head -n 10`;
+do if [[ $i =~ ^[0-9]+$ ]]; then
+	 pr=`echo "($i*100/$avr)" | bc `; 
+	 printf   "$i -  %0.1d%%" $pr;
+   else printf " - $i \n"; fi  
+done 
