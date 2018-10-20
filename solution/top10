@@ -1,7 +1,19 @@
 #! /bin/bash
 
 # run this script as "top10 log.txt"
-
 # here comes your solution
-# e.g.
+$c;
+a=($(grep '"http://www.*" ' log.txt | cut -d ' ' -f11 log.txt| sed '/^"-/d'  ));
+b=($(cut -f10 -d' ' log.txt| sed '/^"-/d' | sort -k1 -nr |head -n 10));
+array=($(cut -f10 -d' ' log.txt| sed '/^"-/d'|sort -k1 -nr|head -n 10));
+for element in "${array[@]}"
+do
+result=$((element*100 / 1359809))
+x=$element/1359809
+array[$c]=$result
+let "c += 1"
+done
+for ((i=0;i<${#array[@]};++i)); do
+echo   "${a[i]}" - "${b[i]}"  - "${array[i]}"
+done
 grep world $1
