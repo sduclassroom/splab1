@@ -2,6 +2,18 @@
 
 # run this script as "top10 log.txt"
 
-# here comes your solution
-# e.g.
+#! /bin/bash
+count = 0
+lastData = ''
+file=  cat "log.txt" | cut -d ' ' -f 4 | cut -d ":" -f 1 | sort  -k1 | awk '{
+    if(lastData != $1){
+      print count,lastData
+      lastData = $1
+      count = 1
+    }
+    else{
+      count += 1
+    }
+  }' | sort  -k1 -n -r | head | awk '{ print $2,"-",$1,"-",$1/3417*100,"%"}'
+echo "$file"
 grep world $1
