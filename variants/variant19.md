@@ -1,7 +1,7 @@
 ### Variant 19
 Output the following information:
 
-* Top 10 applications (ignore their versions) as per the number of downloaded bytes by them
+* Top 10 applications (ignore their versions) which were redirected by server (code starts with 3).
 * The number of redirections for each of them
 * The percentage of redirections for each of them
 
