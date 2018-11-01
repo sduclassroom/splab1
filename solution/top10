@@ -1,7 +1,1 @@
-#! /bin/bash
-
-# run this script as "top10 log.txt"
-
-# here comes your solution
-# e.g.
-grep world $1
+cut -f11 -d" " log.txt | grep -v '"-"' | sort  | uniq -c | sort -rn | cat -n | awk ' { print $1 ". " $3 " - " $2 " - " int($2/1120*100) "%" } '  | head -n 10
