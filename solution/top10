@@ -1,7 +1,14 @@
-#! /bin/bash
+#! /bin/bash 
+lines=$(cut -f11 -d" " $1 | grep -v '"-"' | wc -l)
+echo $lines
+per=""
+for i in `cut -f11 -d" " $1 | grep -v '"-"' | sort  | uniq -c | sort -rn| head -n 10`
+do
+  if [[ $i =~ ^[0-9]+$ ]]
+  then 
+    per=$i
+  else
+    printf "$i - $per - $(echo "scale=0;$per*100/$lines" | bc) %% \n"
+  fi  
 
-# run this script as "top10 log.txt"
-
-# here comes your solution
-# e.g.
-grep world $1
+done
