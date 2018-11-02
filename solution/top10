@@ -1,7 +1,25 @@
-#! /bin/bash
+#!/bin/bash
 
-# run this script as "top10 log.txt"
+a=$(cat log.txt | grep "11/Oct/2006" | cut -f12 -d" " | sed 's/[^A-Za-z]*//g' | grep -v '"-"' |sort -t" " -k1 | uniq -c | sort -n | tail -10 | tac )
 
-# here comes your solution
-# e.g.
-grep world $1
+total=0
+for i in $a;
+do 
+ if [[ $i =~ ^[0-9]+$ ]] 
+ then
+  total=$(($total+$i))
+ fi
+done
+
+echo $total
+
+#echo "$a"
+for i in $a;
+do 
+ if [[ $i =~ ^[0-9]+$ ]] 
+ then
+  printf "$i -  $(echo "scale=0; $i * 100  / $total " | bc )%%" 
+ else
+  printf " - $i \n"
+ fi 
+done
