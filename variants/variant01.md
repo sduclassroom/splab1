@@ -1,7 +1,7 @@
 ### Variant 01
 Output the following information:
 
-* Top 10 referrers as per the total number of bytes downloaded through them
+* Top `n` referrers as per the total number of bytes downloaded through them
 * Total number of bytes downloaded through each of the them
 * Percentage of bytes downloaded through each of them with respect to the total number of bytes downloaded through these 10 referrers.
 
