@@ -8,7 +8,10 @@ Output the following information:
 Sample output:
 
 ```
-1. http://www.example.org/example/When/200x/2006/09/25/ - 3100 - 74%                                                    
-2. http://www.example.org/example/ - 1000 - 24%                
-3. http://www.example.org/example/genx/docs/Guide.html -  91 - 2%                                                        
+$ ./top 5 log.txt
+1. http://www.example.org/example/When/200x/2006/09/29/Dynamic-IDE - 11324408 - 35%
+2. http://www.example.org/example/serif.css - 9304284 - 29%
+3. http://www.google.com/reader/view/ - 5429312 - 17%
+4. http://www.example.org/example/ - 3915823 - 12%
+5. http://www.example.org/example/When/199x/1999/04/15/Granada - 2437728 - 8%                                                
 ```
