@@ -28,7 +28,7 @@ was issued a **GET** request to get the resource at **/example/example.atom**. R
 
 ### Your Solution
 
-Your solution should be stored in file [solution/top10](./solution/top10). To run the solution make it executable by `chmod +x top10` command. Your solution typically will include 2-5 lines of commmands. One line is also possible with `awk` but it will look ugly (my subjective point of view).
+Your solution should be stored in file [./solution/top10](./solution/top10). To run the solution make it executable by `chmod +x top10` command. Your solution typically will include 2-5 lines of commmands. One line is also possible with `awk` but it will look ugly (my subjective point of view).
 
 _Best of luck!_
 
