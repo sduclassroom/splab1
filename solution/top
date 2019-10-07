@@ -1,0 +1,7 @@
+#! /bin/bash
+
+# run this script as "./top 10 log.txt"
+
+# here comes your solution
+# e.g.
+grep -n world $2 | head $1
