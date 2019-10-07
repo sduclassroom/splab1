@@ -8,7 +8,7 @@ Output the following information:
 
 Sample output:
 ```
-$ ./top 5 log.txt
+$ ./top 3 log.txt
 1. 222.231.42.14 - 22 - 53.7%
 2. a197031.upc-a.chello.nl - 10 - 24.4%
 3. ool-44c7433a.dyn.optonline.net - 9 - 22.0%
