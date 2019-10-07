@@ -1,6 +1,6 @@
 ## splab1 - shell scripting
 
-###### \[deadline is week07 labtime, October 07-11, 2019\]
+###### \[deadline is week07-08 labtime, October 07-18, 2019\]
 
 ### Aim
 - To master basic and not-so-basic UNIX/Linux shell commands and scripting.
