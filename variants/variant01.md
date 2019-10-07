@@ -13,5 +13,5 @@ $ ./top 5 log.txt
 2. http://www.example.org/example/serif.css - 9304284 - 29%
 3. http://www.google.com/reader/view/ - 5429312 - 17%
 4. http://www.example.org/example/ - 3915823 - 12%
-5. http://www.example.org/example/When/199x/1999/04/15/Granada - 2437728 - 8%                                                
+5. http://www.example.org/example/When/199x/1999/04/15/Granada - 2437728 - 8%
 ```
