@@ -30,7 +30,7 @@ was issued a **GET** request to get the resource at **/example/example.atom**. R
 
 Your solution should be stored in file [./solution/top10](./solution/top10). To run the solution make it executable by `chmod +x top10` command. Your solution typically will include 2-5 lines of commmands. One line is also possible with `awk` but it will look ugly (my subjective point of view).
 
-The most impressive correct solution will get a small **prize** from me. Your solution may impress if it is clear and stands-out from others solutions.
+The most impressive correct solution will get a small **prize** from me.
 
 _Best of luck!_
 
