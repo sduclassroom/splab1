@@ -4,4 +4,4 @@
 
 # here comes your solution
 # e.g.
-cut -d' ' -f1 $2 | head $1 | grep -n .
+cut -d' ' -f1 $2 | head -$1 | cat -n
