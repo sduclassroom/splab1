@@ -1,4 +1,5 @@
 #! /bin/bash
+
 # run the script like this:
 # $ chmod +x ./path/to/top
 # $ ./path/to/top 10 ./path/to/log.txt
