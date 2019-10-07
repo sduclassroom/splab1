@@ -1,6 +1,7 @@
 #! /bin/bash
-
-# run this script as "./top 10 log.txt"
+# run the script like this:
+# $ chmod +x ./path/to/top
+# $ ./path/to/top 10 ./path/to/log.txt
 
 # here comes your solution
 # e.g.
