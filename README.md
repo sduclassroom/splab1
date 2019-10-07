@@ -10,12 +10,7 @@
 You are to write shell-script that will process an [access log file](http://vseloved.github.io/spos/log.txt.zip) of Apacher web-server and output some information to the console (depends on your [variant](./variants)). Your script should use only standard command line tools like `cut`, `paste`, `head`, `tail`,`cat`, `tac`, `wc`, `join`, `grep`, `sort`, `sed`, `uniq`, `awk`, `expr`, et cetera, and should not use other programming languages like `C`, `Perl`, `Python` etc. The file consists of records. Each line has only one record. A record has the following format:
 
 ```
-<client host> - - [<timestamp with timezone>] 
-<HTTP-request line (type, URL, version)>
-<Code of HTTP-response>
-<Number of sent bytes or '-', if the response is empty>
-<Referer string ('-'  means direct request without referer)>
-<Client info (browser, application)>
+<client host> - - [<timestamp with timezone>] <HTTP-request line (type, URL, version)> <Code of HTTP-response> <Number of sent bytes or '-', if the response is empty> <Referer string ('-'  means direct request without referer)> <Client info (browser, application)>
 ```
 
 Example of a record:
