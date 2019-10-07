@@ -26,6 +26,12 @@ Interpretation of the above record:
 * On **01/Oct/2006:06:33:45 -0700** from the host **host-24-225-218-245.patmedia.net** via **HTTP/1.1** protocol
 was issued a **GET** request to get the resource at **/example/example.atom**. Response code from server is **304**. Such a response has 0 sent bytes (**-**). Referrer is empty. Client used **NetNewsWire/2.0b37** and client OS was **Mac OS X**.
 
+### Your Solution
+
+Your solution should be stored in file [solution/top10](./solution/top10). To run the solution make it executable by `chmod +x top10` command. Your solution typically will include 2-5 lines of commmands. One line is also possible with `awk` but it will look ugly (my subjective point of view).
+
+_Best of luck!_
+
 ##### Credits
 * The task was adopted and adapted from http://vseloved.github.io/spos. All credits go to Vsevolod Dyomkin.
 * Variants in Russian can be found [there](http://vseloved.github.io/pdf/var-sh-ru.pdf)
