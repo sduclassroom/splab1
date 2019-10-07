@@ -4,4 +4,4 @@
 
 # here comes your solution
 # e.g.
-grep -n world $2 | head $1
+cut -d' ' -f1 $2 | head $1 | grep -n .
