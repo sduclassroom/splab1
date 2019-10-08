@@ -9,10 +9,6 @@ Output the following information:
 Sample output:
 
 ```
-$ ./top 3 log.txt
-1. http://www.example.org/example/When/200x/2006/09/29/Dynamic-IDE - 11324408 - 43.5%
-2. http://www.example.org/example/serif.css - 9304284 - 35.7%
-3. http://www.google.com/reader/view/ - 5429312 - 20.8%
 $ ./top 5 log.txt
 1. http://www.example.org/example/When/200x/2006/09/29/Dynamic-IDE - 11324408 - 34.9%
 2. http://www.example.org/example/serif.css - 9304284 - 28.7%
