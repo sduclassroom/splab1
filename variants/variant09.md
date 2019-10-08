@@ -1,9 +1,12 @@
 ### Variant 09
+
+###### [last updated: Oct 8, 2019]
+
 Output the following information:
 
-* Top 10 dates as per number of requests
-* The number of request for each of the dates
-* The percentage of requests for each of the dates
+* Top `n` URLs as per the number of downloaded bytes.
+* The number of bytes downloaded from each of the URLs.
+* The percentage of bytes downloaded from each of the URLs with respect to the total number of bytes downloaded from these `n` URLs.
 
 Sample output:
 
