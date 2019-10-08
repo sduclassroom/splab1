@@ -1,5 +1,5 @@
 ### Variant 03
-###### [last updated: Oct 7, 2019]
+###### [last updated: Oct 8, 2019]
 Output the following information:
 
 * Top `n` referrers for the most popular URL.
@@ -9,4 +9,14 @@ Output the following information:
 Sample output:
 
 ```
+3$ ./top 3 ../log02.txt 
+1. http://www.example.org/example/When/200x/2003/04/30/JavaStrings - 9 - 33.3%
+2. http://www.example.org/example/When/200x/2003/04/26/UTF - 9 - 33.3%
+3. http://www.example.org/example/When/200x/2003/04/13/Strings - 9 - 33.3%
+$ ./top 5 ../log02.txt 
+1. http://www.example.org/example/When/200x/2003/04/30/JavaStrings - 9 - 27.3%
+2. http://www.example.org/example/When/200x/2003/04/26/UTF - 9 - 27.3%
+3. http://www.example.org/example/When/200x/2003/04/13/Strings - 9 - 27.3%
+4. http://www.example.org/example/What/Technology/Coding/ - 4 - 12.1%
+5. http://www.example.org/example/What/Technology/Coding/Text/ - 2 - 6.1%
 ```
