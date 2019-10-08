@@ -1,9 +1,12 @@
 ### Variant 06
+
+###### [last updated: Oct 8, 2019]
+
 Output the following information:
 
-* Top 10 dates as per number of downloaded bytes
-* The number of request for each of the dates
-* The percentage of requests for each of the dates
+* Top `n` dates as per number of downloaded bytes.
+* The number of bytes downloaded on each of the dates.
+* The percentage of bytes downloaded on each of the dates with respect to the total number of bytes downloaded on these `n` dates.
 
 Sample output:
 
