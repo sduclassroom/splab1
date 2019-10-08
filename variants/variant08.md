@@ -6,7 +6,7 @@ Output the following information:
 
 * Top `n` URLs as per the number of request on 28th of October 2006.
 * The number of requests for each of the URLs on that date.
-* The percentage of requests for each of the URLs on that date with respect to the total number of request for these `n` URL on that date.
+* The percentage of requests for each of the URLs on that date with respect to the total number of request for these `n` URLs on that date.
 
 Sample output:
 
