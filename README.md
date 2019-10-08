@@ -25,6 +25,8 @@ was issued a **GET** request to get the resource at **/example/example.atom**. R
 
 Your solution should be stored in file [./solution/top](./solution/top). To run the solution make it executable by `chmod +x top10` command. Your solution will typically include 2-7 lines of commmands. A one liner solution is also possible but probably it will look ugly (my subjective point of view).
 
+Your solution will be crossvalidated against subsets of the `log.txt` file provided above. You can split your `log.txt` into chunks using `split` command. Our testing script will run your solution and compare its output with correct outputs by `diff` command.
+
 _Best of luck!_
 
 ##### Credits
