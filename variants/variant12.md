@@ -1,8 +1,10 @@
 ### Variant 12
-Output the following information:
 
-* Top 10 URLs as per number of requests
-* The number of request for each of the dates
+###### [last updated: Oct 8, 2019]
+
+Output the following information:
+* Top `n` URLs as per number of unique hosts for 28th of October 2006.
+* The number of request for each of the URLs.
 * The percentage of requests for each of the dates
 
 Sample output:
