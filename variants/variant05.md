@@ -4,9 +4,11 @@
 
 Output the following information:
 
-* Top `n` dates as per the number of unique hosts.
+* Top `n` dates as per the number of unique hosts. 
 * The number of request for each of the dates.
 * The percentage of requests for each of the dates with respect to the total number of requests on these `n` particular dates.
+
+Hint: in URL `https://github.com/sduclassroom/splab1/` host is `github.com`.
 
 Sample output:
 
