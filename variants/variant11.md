@@ -1,9 +1,12 @@
-## Variant 11
+### Variant 11
+
+###### [last updated: Oct 8, 2019]
+
 Output the following information:
 
-* Top 10 URLs that had a referrer
-* The number of referrers for each of the dates
-* The percentage of referrers for each of the dates
+* Top `n` URLs that had a referrer.
+* The number of referrers for each of the URLs.
+* The percentage of referrers for each of the URLs with respect to the total number of referrers for these `n` URLs.
 
 Sample output:
 
