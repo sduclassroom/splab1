@@ -1,5 +1,5 @@
 ### Variant 01
-###### [last updated: Oct 7, 2019]
+###### [last updated: Oct 8, 2019]
 Output the following information:
 
 * Top `n` referrers as per the total number of bytes downloaded through them
