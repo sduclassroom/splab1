@@ -1,9 +1,12 @@
 ### Variant 08
+
+###### [last updated: Oct 8, 2019]
+
 Output the following information:
 
-* Top 10 URLs as per number of request on 28th of October 2006
-* The number of requests for each of them
-* The percentage of requests for each of them
+* Top `n` URLs as per the number of request on 28th of October 2006.
+* The number of requests for each of the URLs on that date.
+* The percentage of requests for each of the URLs on that date with respect to the total number of request for these `n` URL on that date.
 
 Sample output:
 
