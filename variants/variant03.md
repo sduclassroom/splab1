@@ -9,7 +9,7 @@ Output the following information:
 Sample output:
 
 ```
-3$ ./top 3 ../log02.txt 
+$ ./top 3 ../log02.txt 
 1. http://www.example.org/example/When/200x/2003/04/30/JavaStrings - 9 - 33.3%
 2. http://www.example.org/example/When/200x/2003/04/26/UTF - 9 - 33.3%
 3. http://www.example.org/example/When/200x/2003/04/13/Strings - 9 - 33.3%
