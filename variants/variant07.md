@@ -1,9 +1,9 @@
 ### Variant 07
 Output the following information:
 
-* Top 10 dates as per number of requests
-* The number of requests for each of the dates
-* The percentage of requests for each of the dates
+* Top `n` dates as per number of client errors (response code starts with 4).
+* The number of errors on each of the dates.
+* The percentage of errors on each of the dates with respect to the total number of client errors on these `n` dates.
 
 Sample output:
 
