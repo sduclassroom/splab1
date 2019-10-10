@@ -1,6 +1,6 @@
 ### Variant 04
 
-###### [last updated: Oct 8, 2019]
+###### [last updated: Oct 10, 2019]
 
 Output the following information:
 
