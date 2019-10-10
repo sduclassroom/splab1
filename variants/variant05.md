@@ -1,14 +1,16 @@
 ### Variant 05
 
-кто-нибудь понял это задание?
-
 ###### [last updated: Oct 10, 2019]
+
+***The most tricky variant!!!***
 
 Output the following information:
 
-* Top `n` dates as per the number of unique hosts (the first field?). 
-* The number of request for each of the dates.
+* Top `n` dates as per the number of unique hosts. 
+* The number of request on each of the dates.
 * The percentage of requests for each of the dates with respect to the total number of requests on these `n` particular dates.
+
+Note that sorting criterium (unique hosts) is different from information shown 
 
 Hint:
 ```
