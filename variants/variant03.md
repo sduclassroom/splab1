@@ -8,7 +8,7 @@ Output the following information:
 * The number of requests through each of the referrer to the URL.
 * The percentage of requests through each of the referrer to the URL with respect to the total number of requests by these `n` referrers.
 
-Assumption. To remove ambiguity let's not count no-referrer strings (i.e. "-") as a referrer.
+To remove ambiguity let's not count no-referrer string "-" as a referrer.
 
 Sample output:
 
