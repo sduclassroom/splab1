@@ -12,5 +12,10 @@ Hint: URL is within HTTP-request line.
 
 Sample output:
 ```
-$ ./top 5 ../log.txt 
+$ ./top 5 ../log.txt
+1. /example/.comments - 28 - 48.3%
+2. /example/example.atom.xml - 9 - 15.5%
+3. /example/When/200x/2003/04/10/-big/Concorde.jpg - 8 - 13.8%
+4. /example/When/200x/2006/03/30/-big/IMG_4613.jpg - 7 - 12.1%
+5. /example/When/200x/2003/07/25/-big/guild-2.jpg - 6 - 10.3%
 ```
