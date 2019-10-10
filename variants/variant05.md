@@ -4,11 +4,16 @@
 
 Output the following information:
 
-* Top `n` dates as per the number of unique hosts. 
+* Top `n` dates as per the number of unique hosts (the first field?). 
 * The number of request for each of the dates.
 * The percentage of requests for each of the dates with respect to the total number of requests on these `n` particular dates.
 
-Hint: in URL `https://github.com/sduclassroom/splab1/` host is `github.com`.
+Hint:
+```
+$ printf "09 Oct 2006\n10 Nov 2019\n" | date +%Y-%m-%d -f-
+2006-10-09
+2019-11-10
+```
 
 Sample output:
 
