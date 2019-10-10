@@ -1,6 +1,8 @@
 ### Variant 05
 
-###### [last updated: Oct 8, 2019]
+кто-нибудь понял это задание?
+
+###### [last updated: Oct 10, 2019]
 
 Output the following information:
 
