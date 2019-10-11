@@ -8,7 +8,7 @@ Output the following information:
 
 * Top `n` dates as per the number of unique hosts. 
 * The number of request on each of the dates.
-* The percentage of requests for each of the dates with respect to the total number of requests on these `n` particular dates.
+* The percentage of requests for each of the dates with respect to the total number of requests on these `n` dates from these hosts.
 
 Note that sorting criterium (unique hosts) is different from information shown 
 
