@@ -1,6 +1,6 @@
 ### Variant 06
 
-###### [last updated: Oct 8, 2019]
+###### [last updated: Oct 11, 2019]
 
 Output the following information:
 
@@ -8,10 +8,14 @@ Output the following information:
 * The number of bytes downloaded on each of the dates.
 * The percentage of bytes downloaded on each of the dates with respect to the total number of bytes downloaded on these `n` dates.
 
+
 Sample output:
 
 ```
-1. 2006-10-18 - 1200 - 36%   
-2. 2006-10-01 - 1130 - 34%
-3. 2006-10-02 - 1000 - 30%
+$ ./top 5 ../log.txt
+1. 2006-10-09 - 7759961 - 25.2%
+2. 2006-10-24 - 6050150 - 19.6%
+3. 2006-10-01 - 6024989 - 19.6%
+4. 2006-10-13 - 5495434 - 17.8%
+5. 2006-10-08 - 5463160 - 17.7%
 ```
