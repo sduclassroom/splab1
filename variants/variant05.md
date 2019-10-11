@@ -8,11 +8,17 @@ Output the following information:
 * The number of request on each of the dates from the host.
 * The percentage of requests for each of the dates with respect to the total number of requests on these `n` dates from the host.
 
-Hint:
+Hint 1:
 ```
 $ printf "09 Oct 2006\n10 Nov 2019\n" | date +%Y-%m-%d -f-
 2006-10-09
 2019-11-10
+```
+
+Hint 2:
+```
+# this construct might be helpful
+paste <(printf "%s" "$VAR1") <(printf "%s" "$VAR2") -d ' '
 ```
 
 Sample output:
