@@ -1,6 +1,6 @@
 ### Variant 09
 
-###### [last updated: Oct 8, 2019]
+###### [last updated: Oct 11, 2019]
 
 Output the following information:
 
@@ -11,7 +11,10 @@ Output the following information:
 Sample output:
 
 ```
-1. 2006-10-18 - 1200 - 36%   
-2. 2006-10-01 - 1130 - 34%
-3. 2006-10-02 - 1000 - 30%
+$ ./top 5 ../log.txt
+1. /example/example.atom - 30124358 - 50.4%
+2. /example/potd.png - 16875617 - 28.2%
+3. /example/oed60.jpg - 5584210 - 9.3%
+4. /example/rose60.jpg - 3677048 - 6.2%
+5. /example/MakuhariPrince60.png - 3502278 - 5.9%
 ```
