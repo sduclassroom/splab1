@@ -8,6 +8,18 @@ Output the following information:
 * The number of bytes downloaded on each of the dates.
 * The percentage of bytes downloaded on each of the dates with respect to the total number of bytes downloaded on these `n` dates.
 
+Hint 1:
+```
+$ printf "09 Oct 2006\n10 Nov 2019\n" | date +%Y-%m-%d -f-
+2006-10-09
+2019-11-10
+```
+
+Hint 2:
+```
+# this construct might be helpful
+paste <(printf "%s" "$VAR1") <(printf "%s" "$VAR2") -d ' '
+```
 
 Sample output:
 
