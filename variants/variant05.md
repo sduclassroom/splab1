@@ -1,16 +1,12 @@
 ### Variant 05
 
-###### [last updated: Oct 10, 2019]
-
-***The most tricky variant!!!***
+###### [last updated: Oct 11, 2019]
 
 Output the following information:
 
-* Top `n` dates as per the number of unique hosts. 
-* The number of request on each of the dates.
-* The percentage of requests for each of the dates with respect to the total number of requests on these `n` dates from these hosts.
-
-Note that sorting criterium (unique hosts) is different from information shown 
+* Top `n` dates for the most frequent (popular) host. 
+* The number of request on each of the dates from the host.
+* The percentage of requests for each of the dates with respect to the total number of requests on these `n` dates from the host.
 
 Hint:
 ```
@@ -26,3 +22,5 @@ Sample output:
 2. 2006-10-01 - 1130 - 34%
 3. 2006-10-02 - 1000 - 30%
 ```
+
+Note that original Russian version of this task differs from this English version (FYI).
