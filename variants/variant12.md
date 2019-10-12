@@ -1,16 +1,19 @@
 ### Variant 12
 
-###### [last updated: Oct 8, 2019]
+###### [last updated: Oct 12, 2019]
 
 Output the following information:
-* Top `n` URLs as per number of unique hosts on 28th of October 2006.
-* The number of bla bla bla ...
-* The percentage of bla bla bla ...
+* Top `n` URLs requested via the most popular referrer.
+* The number requests to each of the URLs.
+* The percentage of requests to each of the URLs with respect to the total number of requests to these `n` URLs via the most popular referrer.
 
 Sample output:
 
 ```
-1. /example.com - 311 - 94%
-2. /img/image.png - 10 - 3%
-3. /robots.txt - 9 - 3%
+$ ./top 5 ../log.txt
+1. /example/potd.png - 89 - 21.6%
+2. /example/serif.css - 86 - 20.9%
+3. /example/sans.css - 86 - 20.9%
+4. /example/example.js - 81 - 19.7%
+5. /example/Feed.png - 70 - 17.0%
 ```
