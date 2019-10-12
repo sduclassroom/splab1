@@ -17,3 +17,5 @@ $ ./top 5 ../log.txt
 4. /example/example.js - 81 - 19.7%
 5. /example/Feed.png - 70 - 17.0%
 ```
+
+Note that original Russian version of this task differs from this English version (FYI).
