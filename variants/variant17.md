@@ -8,6 +8,8 @@ Output the following information:
 * The number of requests for each of the applications.
 * The percentage of request for each of the applications with respect to the total number of resquest by this `n` applications.
 
+To remove ambiguity and for simplicity don't skip noname applications "-".
+
 Sample output:
 
 ```
