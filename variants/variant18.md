@@ -8,6 +8,8 @@ Output the following information:
 * The number of bytes downloaded by each of them.
 * The percentage of bytes downloaded by each of them with respect to the total number of bytes downloaded by these `n` applications.
 
+To remove ambiguity don't skip noname applications "-".
+
 Sample output:
 
 ```
