@@ -1,14 +1,17 @@
 ### Variant 13
 Output the following information:
 
-* Top 10 hosts as per number of requests on 1st of October 2006
-* The number of request for each of them
-* The percentage of requests for each of them
+* Top `n` hosts as per number of requests on October 1, 2006.
+* The number of requests for each of the hosts on October 1, 2006.
+* The percentage of requests for each of them with respect to the total number of requests by these `n` hosts on October 1, 2006.
 
 Sample output:
 
 ```
-1. lj612152.inktomisearch.com - 5 - 50%
-2. ac914c7e.ipt.aol.com - 3 - 30%
-3. fj301012.inktomisearch.com - 2 - 20%
+$ ./top 5 ../log.txt
+1. k141cluster2.fsv.cvut.cz - 6 - 28.6%
+2. cm-84.209.247.208.chello.no - 4 - 19.0%
+3. bl1sch2043806.phx.gbl - 4 - 19.0%
+4. 207.188.28.33 - 4 - 19.0%
+5. ppp196-169.adsl.forthnet.gr - 3 - 14.3%
 ```
