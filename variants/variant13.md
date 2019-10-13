@@ -1,9 +1,9 @@
 ### Variant 13
 Output the following information:
 
-* Top `n` hosts as per number of requests on October 1, 2006.
-* The number of requests for each of the hosts on October 1, 2006.
-* The percentage of requests for each of them with respect to the total number of requests by these `n` hosts on October 1, 2006.
+* Top `n` hosts as per number of requests on 1 October 2006.
+* The number of requests for each of the hosts on 1 October 2006.
+* The percentage of requests for each of them with respect to the total number of requests by these `n` hosts on 1 October 2006.
 
 Sample output:
 
