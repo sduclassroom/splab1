@@ -6,7 +6,7 @@ Output the following information:
 
 * Top `n` applications (ignore their versions) which were redirected by the server (code starts with 3).
 * The number of redirections for each of them.
-* The percentage of redirections for each of them
+* The percentage of redirections for each of them with respect to the total number of redirections for these `n` applications.
 
 To remove ambiguity and for simplicity don't skip noname applications "-".
 
